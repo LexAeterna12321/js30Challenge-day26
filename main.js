@@ -16,7 +16,7 @@ function handleEnter() {
     width: dropdownCoords.width,
     height: dropdownCoords.height,
     top: dropdownCoords.top - navCoords.top,
-    left: dropdownCoords.left
+    left: dropdownCoords.left - navCoords.left
   };
 
   bg.style.setProperty("width", `${coords.width}px`);
